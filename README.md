@@ -25,7 +25,7 @@ It deploys a Web Service to run a Python Script
 
 - docker-compose run web django-admin startproject composeexample .
  
-3- Copy confi file to the project:
+3- Copy config files to the project:
 
 - cp CONFIG/* composeexample
 
@@ -34,7 +34,7 @@ It deploys a Web Service to run a Python Script
 
 ## Note:
 
-Python requests module is required, please, make sure it is installed before launching the browser :
+`requests Python module` is required, please, make sure it is installed before launching the browser :
 
 docker exec -it \`docker ps -a | grep web | awk {'print $1'}\` python3 -m pip install requests 
 
