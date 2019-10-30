@@ -1,4 +1,5 @@
-# Convert-Digit-2-words-with-Python-Django
+# Convert-Digits-to-English-words-with-Python-Django
+
 
 This Repository installs :
 
