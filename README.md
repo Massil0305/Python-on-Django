@@ -38,4 +38,4 @@ docker exec -it \`docker ps -a | grep web | awk {'print $1'}\` python3 -m pip in
 Then launch the browser at http://127.0.0.1:8000
 
 ## Author
-Salah Lahlou
+Salah.L
